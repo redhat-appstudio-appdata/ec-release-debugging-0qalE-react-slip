@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: verify-enterprise-contract-task
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/jstuart/verify-enterprise-contract-task@sha256:11db41bf15c97e3c281aa6618178fa3398e13726e1cad6dac7d7fb1da22e7247
+        name: container-image
+        resources: {}
+status: {}
