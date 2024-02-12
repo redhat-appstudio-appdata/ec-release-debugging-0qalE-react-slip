@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/jstuart/verify-enterprise-contract-task@sha256:bb96f87695296f29fac1e6a14d9b40520e9fd6b1e3ee467e2ecbf12a07fc8181
+      - image: quay.io/jstuart/verify-enterprise-contract-task@sha256:1ae2467bd286392c8f226d8dcde3d93a4bff25b70efb8f0e16f286719ec197a5
         name: container-image
         resources: {}
 status: {}
