@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/jstuart/ec-cli@sha256:24266633f235052ba0113f0576bf5c4dcc190d94b91aa22c3555daeb6382fe70
+      - image: quay.io/jstuart/ec-cli@sha256:e5ea6e2d8766fe560f1f24e4e9250ba023f1f27a914e484c9edb82d6018b2372
         name: container-image
         resources: {}
 status: {}
