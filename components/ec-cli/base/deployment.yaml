@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: ec-cli
     spec:
       containers:
-      - image: quay.io/jstuart/ec-cli@sha256:e5ea6e2d8766fe560f1f24e4e9250ba023f1f27a914e484c9edb82d6018b2372
+      - image: quay.io/jstuart/ec-cli@sha256:7f9323bb7f0086bd26352f4c3c6f76deb067c7c69a0f102de1c7409b0605a4f1
         imagePullPolicy: Always
         name: container-image
         ports:
